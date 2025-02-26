@@ -928,8 +928,7 @@ blockquote cite {
   font-size: 1.8rem;
 }
 
-#equipment ul,
-#facilities ul {
+#equipment ul {
   list-style: none;
   margin-left: 0;
   display: grid;
@@ -937,8 +936,7 @@ blockquote cite {
   gap: 2rem;
 }
 
-#equipment li,
-#facilities li {
+#equipment li {
   padding: 1.5rem 2rem;
   background-color: var(--gray-light);
   border-radius: 0.4rem;
@@ -947,8 +945,7 @@ blockquote cite {
   transition: var(--transition-medium);
 }
 
-#equipment li:hover,
-#facilities li:hover {
+#equipment li:hover{
   background: var(--gradient-gold);
   transform: translateY(-5px);
   box-shadow: var(--shadow-sm);
